@@ -19,3 +19,13 @@ Una vez instalado lo anterior:
 1. Clona el repositorio
 2. Abre `ToroidalWorld.sln` en Visual Studio
 3. Compila y ejecuta
+
+## 📁 Carpeta Resources
+
+La carpeta `Resources/` contiene todo el contenido del juego y puede editarse sin recompilar:
+
+- **`Config/`** — archivos JSON con las definiciones de entidades del juego (barcos, enemigos, torretas, proyectiles, oleadas...). Puedes modificar estadísticas o añadir nuevas entidades siguiendo el mismo formato.
+- **`Sprites/`** — texturas en `.png`, cada una acompañada de un `.json` con el mismo nombre que define el spritesheet (tamaño de frame y animaciones).
+- **`Textures/`** — texturas de fondo y otros elementos visuales estáticos.
+- **`Music/`** — música de fondo en formato `.ogg`.
+- **`SoundEffects/`** — efectos de sonido en formato `.wav`.
